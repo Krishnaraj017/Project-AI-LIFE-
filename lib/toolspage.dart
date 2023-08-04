@@ -2,7 +2,7 @@ import 'package:ailife/Links/links.dart';
 import 'package:flutter/material.dart';
 
 class Toolspage extends StatelessWidget {
-  const Toolspage({Key? key}) : super(key: key);
+  const Toolspage({Key? key, required String title}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

@@ -1,4 +1,5 @@
-import 'package:ailife/homepage/home.dart';
+//import 'package:ailife/homepage/home.dart';
+import 'package:ailife/toolspage.dart';
 import 'package:flutter/material.dart';
 import 'package:simple_gradient_text/simple_gradient_text.dart';
 
@@ -48,7 +49,7 @@ class _WelcomePageState extends State<WelcomePage>
     Navigator.push(
       context,
       MaterialPageRoute(
-          builder: (context) => const HomePage(
+          builder: (context) => const Toolspage(
                 title: '',
               )),
     );
