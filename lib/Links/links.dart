@@ -65,7 +65,7 @@ class CustomScrollableColumn extends StatelessWidget {
                           gradientColors: [Colors.blue, Colors.greenAccent],
                         ),
                         SizedBox(
-                            width: 16), // Add space between containers in a row
+                            width: 16), 
                         CustomContainer(
                           text: 'QuestAI',
                           description: 'Generate ReactJS code from your design. ',
@@ -74,7 +74,7 @@ class CustomScrollableColumn extends StatelessWidget {
                           gradientColors: [Colors.blue, Colors.greenAccent],
                         ),
                         SizedBox(
-                            width: 16), // Add space between containers in a row
+                            width: 16), 
                         CustomContainer(
                           text: 'AlanAI',
                           description:
@@ -86,7 +86,7 @@ class CustomScrollableColumn extends StatelessWidget {
                       ],
                     ),
                   ),
-                  const SizedBox(height: 16), // Add space between rows
+                  const SizedBox(height: 16), 
                   const SingleChildScrollView(
                     scrollDirection: Axis.horizontal,
                     child: Row(
@@ -101,7 +101,7 @@ class CustomScrollableColumn extends StatelessWidget {
                           gradientColors: [Colors.blue, Colors.greenAccent],
                         ),
                         SizedBox(
-                            width: 16), // Add space between containers in a row
+                            width: 16), 
                         CustomContainer(
                           text: 'Futurepedia',
                           description:
@@ -111,7 +111,7 @@ class CustomScrollableColumn extends StatelessWidget {
                           gradientColors: [Colors.blue, Colors.greenAccent],
                         ),
                         SizedBox(
-                            width: 16), // Add space between containers in a row
+                            width: 16), 
                         CustomContainer(
                           text: 'SheetAi.app',
                           description:
@@ -121,7 +121,7 @@ class CustomScrollableColumn extends StatelessWidget {
                           gradientColors: [Colors.blue, Colors.greenAccent],
                         ),
                         SizedBox(
-                            width: 16), // Add space between containers in a row
+                            width: 16), 
                         CustomContainer(
                           text: 'Beautiful ai',
                           description:
@@ -148,7 +148,7 @@ class CustomScrollableColumn extends StatelessWidget {
                           gradientColors: [Colors.blue, Colors.greenAccent],
                         ),
                         SizedBox(
-                            width: 16), // Add space between containers in a row
+                            width: 16),
                         CustomContainer(
                           text: 'Xembly',
                           description:
@@ -158,7 +158,7 @@ class CustomScrollableColumn extends StatelessWidget {
                           gradientColors: [Colors.blue, Colors.greenAccent],
                         ),
                         SizedBox(
-                            width: 16), // Add space between containers in a row
+                            width: 16), 
                         CustomContainer(
                           text: 'Taskade',
                           description:
@@ -168,7 +168,7 @@ class CustomScrollableColumn extends StatelessWidget {
                           gradientColors: [Colors.blue, Colors.greenAccent],
                         ),
                         SizedBox(
-                            width: 16), // Add space between containers in a row
+                            width: 16), 
                         CustomContainer(
                           text: 'Nanonet',
                           description:
@@ -195,7 +195,7 @@ class CustomScrollableColumn extends StatelessWidget {
                           gradientColors: [Colors.blue, Colors.greenAccent],
                         ),
                         SizedBox(
-                            width: 16), // Add space between containers in a row
+                            width: 16), 
                         CustomContainer(
                           text: 'AI Intern',
                           description:
@@ -205,7 +205,7 @@ class CustomScrollableColumn extends StatelessWidget {
                           gradientColors: [Colors.blue, Colors.greenAccent],
                         ),
                         SizedBox(
-                            width: 16), // Add space between containers in a row
+                            width: 16), 
                         CustomContainer(
                           text: 'Fireflies Ai',
                           description:
@@ -215,7 +215,7 @@ class CustomScrollableColumn extends StatelessWidget {
                           gradientColors: [Colors.blue, Colors.greenAccent],
                         ),
                         SizedBox(
-                            width: 16), // Add space between containers in a row
+                            width: 16), 
                         CustomContainer(
                           text: 'WhatThe Ai',
                           description:
@@ -242,7 +242,7 @@ class CustomScrollableColumn extends StatelessWidget {
                           gradientColors: [Colors.blue, Colors.greenAccent],
                         ),
                         SizedBox(
-                            width: 16), // Add space between containers in a row
+                            width: 16), 
                         CustomContainer(
                           text: 'Mayday',
                           description:
@@ -252,7 +252,7 @@ class CustomScrollableColumn extends StatelessWidget {
                           gradientColors: [Colors.blue, Colors.greenAccent],
                         ),
                         SizedBox(
-                            width: 16), // Add space between containers in a row
+                            width: 16), 
                         CustomContainer(
                           text: 'Rewind',
                           description:
@@ -262,7 +262,7 @@ class CustomScrollableColumn extends StatelessWidget {
                           gradientColors: [Colors.blue, Colors.greenAccent],
                         ),
                         SizedBox(
-                            width: 16), // Add space between containers in a row
+                            width: 16), 
                         CustomContainer(
                           text: 'Vowel',
                           description:
@@ -289,7 +289,7 @@ class CustomScrollableColumn extends StatelessWidget {
                           gradientColors: [Colors.blue, Colors.greenAccent],
                         ),
                         SizedBox(
-                            width: 16), // Add space between containers in a row
+                            width: 16), 
                         CustomContainer(
                           text: 'CoGram',
                           description:
@@ -384,7 +384,7 @@ onTap: () async {
                 ),
               ),
               Text(
-                description, // New description text
+                description, 
                 style: const TextStyle(
                   fontSize: 12,
                   fontWeight: FontWeight.w500,
