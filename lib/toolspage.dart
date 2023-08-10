@@ -7,12 +7,12 @@ class Toolspage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Center(
-      // Center the content on desktop
+      // centered the content on desktop//hp
       child: SafeArea(
         child: Scaffold(
           body: Container(
             color:
-                const Color(0x0019547b), // Set your desired background color here
+                const Color(0x0019547b), 
             padding: const EdgeInsets.symmetric(vertical: 20.0),
             child: SingleChildScrollView(
               child: Center(
@@ -43,9 +43,7 @@ class Toolspage extends StatelessWidget {
                           )),
                     ),
                     const SizedBox(height: 20),
-                    // Rest of the code...
-      
-                   // const SizedBox(height: 16),
+                   
                     _buildAnimatedContainer(
                       containerWidth: MediaQuery.of(context).size.width,
                       child: SingleChildScrollView(
@@ -74,7 +72,7 @@ class Toolspage extends StatelessWidget {
                                 imagePath: 'assets/icons8-video-64.png',
                                 text: 'Video',
                                 onPressed: () {
-                                  // Add button action here
+                               
                                 },
                                 width: 100,
                                 height: 200),
@@ -86,7 +84,7 @@ class Toolspage extends StatelessWidget {
                                 imagePath: 'assets/icons8-marketing-96.png',
                                 text: 'Marketing',
                                 onPressed: () {
-                                  // Add button action here
+                                  
                                 },
                                 width: 100,
                                 height: 200),
@@ -113,7 +111,7 @@ class Toolspage extends StatelessWidget {
                                 imagePath: 'assets/icons8-design-96.png',
                                 text: 'Design',
                                 onPressed: () {
-                                  // Add button action here
+
                                 },
                                 width: 100,
                                 height: 200),
@@ -125,7 +123,7 @@ class Toolspage extends StatelessWidget {
                                 imagePath: 'assets/icons8-writing-96.png',
                                 text: 'Writing',
                                 onPressed: () {
-                                  // Add button action here
+
                                 },
                                 width: 100,
                                 height: 200),
@@ -137,7 +135,7 @@ class Toolspage extends StatelessWidget {
                                 imagePath: 'assets/icons8-chatbot-96.png',
                                 text: 'Chatbot',
                                 onPressed: () {
-                                  // Add button action here
+                                  
                                 },
                                 width: 100,
                                 height: 200),
@@ -146,7 +144,7 @@ class Toolspage extends StatelessWidget {
                             //   imagePath: 'assets/jetpack.png',
                             //   text: '',
                             //   onPressed: () {
-                            //     // Add button action here
+                            //
                             //   },
                             //     width: 100,
                             //     height: 200
@@ -159,7 +157,7 @@ class Toolspage extends StatelessWidget {
                             //   imagePath: 'assets/jetpack.png',
                             //   text: '',
                             //   onPressed: () {
-                            //     // Add button action here
+                            //     
                             //   },
                             //     width: 100,
                             //     height: 200
@@ -184,7 +182,7 @@ class Toolspage extends StatelessWidget {
                     //           imagePath: 'assets/jetpack.png',
                     //           text: 'Container 9',
                     //           onPressed: () {
-                    //             // Add button action here
+                    //             
                     //           },
                     //             width: 100,
                     //             height: 200
@@ -200,7 +198,7 @@ class Toolspage extends StatelessWidget {
                     //           imagePath: 'assets/jetpack.png',
                     //           text: 'Container 10',
                     //           onPressed: () {
-                    //             // Add button action here
+                    //             
                     //           },
                     //             width: 100,
                     //             height: 200
@@ -213,7 +211,7 @@ class Toolspage extends StatelessWidget {
                     //           imagePath: 'assets/jetpack.png',
                     //           text: 'Container 11',
                     //           onPressed: () {
-                    //             // Add button action here
+                    //             
                     //           },
                     //             width: 100,
                     //             height: 200
@@ -226,7 +224,7 @@ class Toolspage extends StatelessWidget {
                     //           imagePath: 'assets/jetpack.png',
                     //           text: 'Container 12',
                     //           onPressed: () {
-                    //             // Add button action here
+                    //             
                     //           },
                     //             width: 100,
                     //             height: 200
@@ -235,7 +233,7 @@ class Toolspage extends StatelessWidget {
                     //     ),
                     //   ),
                     // ),
-                    // Add more rows here...
+                    
                   ],
                 ),
               ),
@@ -333,19 +331,19 @@ class CustumContainer extends StatelessWidget {
           style: ElevatedButton.styleFrom(
             foregroundColor: const Color.fromARGB(255, 44, 42, 42),
             backgroundColor: const Color.fromARGB(
-                255, 128, 113, 182), // Text color of the button
+                255, 128, 113, 182), 
             padding: const EdgeInsets.symmetric(
-                horizontal: 20, vertical: 12), // Padding
+                horizontal: 20, vertical: 12), 
             shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(14), // Rounded corners
+              borderRadius: BorderRadius.circular(14), 
             ),
             shadowColor: const Color.fromARGB(255, 255, 5, 1), // Shadow color
-            elevation: 5, // Elevation, controls the shadow intensity
+            elevation: 5, // Elevation to control the shadow intensity
             textStyle: const TextStyle(
-              fontSize: 16, // Text size
-              fontWeight: FontWeight.bold, // Text weight
+              fontSize: 16, 
+              fontWeight: FontWeight.bold, 
             ),
-            // Add any other styling properties you want here
+       
           ),
           child: const Text('Go'),
         ),
