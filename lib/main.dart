@@ -9,7 +9,7 @@ void main() {
 const Color kDarkBackgroundColor = Color(0xFF121212);
 class MyApp extends StatelessWidget {
   const MyApp({Key? key})
-      : super(key: key); // Add 'Key?' to fix the constructor
+      : super(key: key);
 
   @override
   Widget build(BuildContext context) {
