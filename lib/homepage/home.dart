@@ -21,17 +21,17 @@ class HomePage extends StatelessWidget {
        // backgroundColor: Colors.transparent,
         body: Center(
           child: Expanded(
-            // Added Expanded widget
+            
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 ClipRRect(
                   borderRadius: BorderRadius.circular(
-                      33.0), // Adjust the radius as per your requirement
+                      33.0), 
                   child: Image.asset(
                     'assets/heroimage.png',
-                    width: 330, // Adjust the width as per your requirement
-                    height: 450, // Adjust the height as per your requirement
+                    width: 330,
+                    height: 450, 
                     fit: BoxFit.cover,
                   ),
                 ),
@@ -64,10 +64,10 @@ class HomePage extends StatelessWidget {
                       (Set<MaterialState> states) {
                         if (states.contains(MaterialState.pressed)) {
                           return const Color.fromARGB(255, 251, 171,
-                              0); // Color when the button is pressed
+                              0); // color to add when the button is pressed
                         } else if (states.contains(MaterialState.hovered)) {
                           return const Color(
-                              0xff0CFF60); // Color when the button is hovered
+                              0xff0CFF60); // color when the button is hovered
                         }
                         return const Color.fromARGB(
                             255, 129, 105, 185); // Default color
@@ -84,8 +84,8 @@ class HomePage extends StatelessWidget {
                     shape: MaterialStateProperty.all<RoundedRectangleBorder>(
                       RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(
-                            14.0), // Set the button's border radius. Change this value to adjust the border radius.
-                        // You can also set other properties like side color, width, etc.
+                            14.0),
+                        
                       ),
                     ),
                   ),
