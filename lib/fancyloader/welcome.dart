@@ -1,8 +1,9 @@
 //import 'package:ailife/homepage/home.dart';
-import 'package:ailife/toolspage.dart';
+
 import 'package:flutter/material.dart';
 import 'package:simple_gradient_text/simple_gradient_text.dart';
 
+import '../homepage/home.dart';
 import 'fancy_loader.dart';
 
 class WelcomePage extends StatefulWidget {
@@ -45,16 +46,7 @@ class _WelcomePageState extends State<WelcomePage>
     super.dispose();
   }
 
-  void _goToGetStarted(BuildContext context) {
-    Navigator.push(
-      context,
-      MaterialPageRoute(
-          builder: (context) => const Toolspage(
-                title: '',
-              )),
-    );
-  }
-
+ 
   @override
   Widget build(BuildContext context) {
     _animationController.forward();
@@ -127,7 +119,7 @@ class _WelcomePageState extends State<WelcomePage>
                 // Animated Circular and Red "Get Started" Button with scale effect
                 ElevatedButton(
                   onPressed: () {
-                    _goToGetStarted(context);
+                Navigator.push(context, MaterialPageRoute(builder: (context)=> const HomePage(title: '')));
                   },
                   style: ButtonStyle(
                     backgroundColor: MaterialStateProperty.all<Color>(const Color.fromARGB(255, 186, 169, 169)), // Set the background color when the button is in the default state.
