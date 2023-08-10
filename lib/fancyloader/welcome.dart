@@ -12,11 +12,11 @@ class WelcomePage extends StatefulWidget {
   final String title;
 
   @override
-  // ignore: library_private_types_in_public_api
-  _WelcomePageState createState() => _WelcomePageState();
+  
+  WelcomePageState createState() => WelcomePageState();
 }
 
-class _WelcomePageState extends State<WelcomePage>
+class WelcomePageState extends State<WelcomePage>
     with SingleTickerProviderStateMixin {
   late AnimationController _animationController;
   late Animation<double> _fadeInAnimation;
