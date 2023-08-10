@@ -29,7 +29,7 @@ class WelcomePageState extends State<WelcomePage>
       duration: const Duration(milliseconds: 800),
     );
 
-    // Create the fade-in animation for the "Welcome to FitLife!" text
+    
     _fadeInAnimation = Tween<double>(begin: 0.0, end: 1.0).animate(
       CurvedAnimation(
         parent: _animationController,
@@ -37,7 +37,7 @@ class WelcomePageState extends State<WelcomePage>
       ),
     );
 
-    // Create the button scale animation for the "Get Started" button
+  
   }
 
   @override
@@ -58,7 +58,7 @@ class WelcomePageState extends State<WelcomePage>
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                // Animated "Welcome to FitLife!" text with gradient effect
+                
                 FadeTransition(
                   opacity: _fadeInAnimation,
                   child: ShaderMask(
@@ -82,7 +82,7 @@ class WelcomePageState extends State<WelcomePage>
                   ),
                 ),
                 const SizedBox(height: 1),
-                // Use SizedBox with fixed dimensions to properly display FancyLoader
+                
                 const SizedBox(
                   width: 100,
                   height: 500,
@@ -116,24 +116,24 @@ class WelcomePageState extends State<WelcomePage>
                   ),
                 ),
                 const SizedBox(height: 1),
-                // Animated Circular and Red "Get Started" Button with scale effect
+                
                 ElevatedButton(
                   onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> const HomePage(title: '')));
                   },
                   style: ButtonStyle(
-                    backgroundColor: MaterialStateProperty.all<Color>(const Color.fromARGB(255, 186, 169, 169)), // Set the background color when the button is in the default state.
+                    backgroundColor: MaterialStateProperty.all<Color>(const Color.fromARGB(255, 186, 169, 169)), 
                     foregroundColor: MaterialStateProperty.all<Color>(Colors
-                        .black), // Set the text color when the button is in the default state.
+                        .black), 
                     padding: MaterialStateProperty.all<EdgeInsetsGeometry>(
-                        const EdgeInsets.all(14.0)), // Set the button's padding.
+                        const EdgeInsets.all(14.0)), 
                     textStyle: MaterialStateProperty.all<TextStyle>(const TextStyle(
-                        fontSize: 16)), // Set the text style of the button.
+                        fontSize: 16)),
                     shape: MaterialStateProperty.all<RoundedRectangleBorder>(
                       RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(
-                            20.0), // Set the button's border radius.
-                        // You can also set other properties like side color, width, etc.
+                            20.0), 
+
                       ),
                     ),
                   ),
